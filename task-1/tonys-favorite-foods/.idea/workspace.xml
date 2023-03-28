@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83ebc3f8-3592-41e5-ac40-a20b0d225364" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../07-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/src/page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw/TASK.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw/TASK.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../presentation/Performance tools.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../presentation/Performance tools.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/images/image9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/images/image9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-links-script attributes-and-target-browsers/hw/target-browsers/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04-image-optimization/hw/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04-image-optimization/hw/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/animation-optimization/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/animation-optimization/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/fontAwesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/fonts/flexslider-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/fonts/flexslider-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/fonts/flexslider-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/fonts/flexslider-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/light-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/css/owl-carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/blog_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/blog_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/blog_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/featured_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/featured_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/featured_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_big_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_big_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_big_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_big_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/portfolio_big_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/slide_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/slide_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/img/slide_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/js/vendor/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/js/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/js/vendor/jquery-1.11.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06-critical-css-and-css-optimization/hw/critical-css/js/vendor/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/examples/ng-webpack-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/examples/react-webpack-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/public/logo-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/App/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/App/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/containers/TodoItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/containers/TodoList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/hooks/useDoubleClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/hooks/useInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/hooks/useOnEnter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/reducers/useTodos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/reducers/useTodos.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/hw/application/src/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07-minification-concatenation-unused/presentation/Minification.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/side-effects-example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/side-effects-example/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/side-effects-example/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/side-effects-example/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/side-effects-example/src/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/side-effects-example/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/side-effects-example/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/tree-shaking example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/tree-shaking example/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/tree-shaking example/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/tree-shaking example/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (BAD)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (BAD)/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (BAD)/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (BAD)/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (BAD)/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (GOOD)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (GOOD)/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (GOOD)/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (GOOD)/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/examples/webpack-bundle-analyzer example (GOOD)/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/css/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/flexslider-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/flexslider-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/flexslider-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/flexslider-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/about-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/banner-item-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/banner-item-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/banner-item-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/banner-item-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/banner-item-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/banner-item-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/blog-post-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/blog-post-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/blog-post-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/blog-thumb-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/blog-thumb-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/blog-thumb-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/blog-thumb-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/blog-thumb-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/blog-thumb-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/comment-author-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/comment-author-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/comment-author-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/cta-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/images/heading-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/assets/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/vendor/chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/split-chunks/vendor/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/src/LogInConsole.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/src/createList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/src/fn1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/src/task1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/src/task2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/src/task3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/src/task4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/styles/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/hw/tree-shaking-hm/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/presentation/Webpack Bundle Analyzer + Tree shaking.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/presentation/[JS] Split into separate chunks (Lazy Load) (final).pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08-tree-sharking-bundle-size-separate-chunks/presentation/~$Webpack Bundle Analyzer + Tree shaking.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/strategies/sw_cache-fallback-to-network.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/strategies/sw_cache-network-race.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/strategies/sw_cache-only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/strategies/sw_network-fallback-to-cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/strategies/sw_network-only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/strategies/sw_state-while-revalidate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/sw_cached_pages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/examples/sw_cached_site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/hw/sw-caching-hm/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/hw/sw-caching-hm/assets/earth.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/hw/sw-caching-hm/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/hw/sw-caching-hm/public/second-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/hw/sw-caching-hm/scripts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/hw/sw-caching-hm/styles/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/hw/sw-caching-hm/styles/second-page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/hw/sw-caching-hm/styles/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09-caching-sw-and-http/presentation/Service Workers and HTTP-caching.pptx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1vDqGZLDkJYXEOjE8fTyGuJ2F9E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83ebc3f8-3592-41e5-ac40-a20b0d225364" name="Default Changelist" comment="" />
+      <created>1626106912239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626106912239</updated>
+      <workItem from="1626106913547" duration="2353000" />
+      <workItem from="1634742077141" duration="2558000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
