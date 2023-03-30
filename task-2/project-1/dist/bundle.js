@@ -1,0 +1,1 @@
+(()=>{const l=document.querySelectorAll("img");for(let o of l)o.style.display="block",console.log(o)})();
