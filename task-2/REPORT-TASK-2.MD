@@ -1,11 +1,10 @@
 # Identify target browser hometask
-
 ## Task description
 The main goal of the task is to create 2 webpack projects and compare the sizes of the resulting js files. 
 In the first project you need to connect babel and configure the browserlist according to the condition. 
 In the second, you need to configure a separate assembly for old and modern browsers based on the esmodules in babel.
 
-Structure of the task should be:
+Structure of the task:
 
 ```
 <task folder>
@@ -25,7 +24,6 @@ Structure of the task should be:
 ```
 
 ## Evaluation criteria
-For every day of lateness there is a penalty in 0.5 point. Maximum 10 points. 
 
 1. In first project setup webpack to work with babel. Create .babelrc file and configure babel to support last 2
    versions of browsers, not dead browsers and browsers with usability more then 5%. **[4 points]**
@@ -37,11 +35,11 @@ For every day of lateness there is a penalty in 0.5 point. Maximum 10 points.
 
 | Project | Build      | File Size |
 |---------|------------|-----------|
-| Part 1  | Production | --- kB    |
-| Part 2  | Legacy     | --- MB    |
-| Part 3  | Modern     | --- kB    |
+| Part 1  | Production | 105  B    |
+| Part 2  | Legacy     | 34.8 kB   |
+| Part 2  | Modern     | 18.6 kB   |
 
-As you can see, the modern build from Part 2 is significantly smaller than both builds from Part 1 and the legacy build from Part 2. This is because the modern build only includes the necessary polyfills for modern browsers, while the other builds include polyfills for older browsers as well.
+As you can see, the modern build from Part 2 is smaller than the legacy build from Part 2. This is because the modern build only includes the necessary polyfills for modern browsers, while the other builds include polyfills for older browsers as well.
 
 The production build from Part 1 is smaller than the development build because it includes additional optimizations such as minification and dead code elimination.
 

@@ -2,11 +2,13 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = (env, argv) => {
-    const isModern = env && env.modern
+    const isModern = env && env.modern;
+    const filenamePrefix = isModern ? 'modern' : 'legacy';
     return {
         entry: path.resolve(__dirname, 'src/index.js'),
         output: {
-            filename: isModern ? 'bundle.modern.js' : 'bundle.legacy.js',
+            filename: `[name].bundle.${filenamePrefix}.js`,
+            chunkFilename: `[name].${filenamePrefix}.js`
         },
         module: {
             rules: [
@@ -25,7 +27,25 @@ module.exports = (env, argv) => {
                     test: /\.js$/,
                     exclude: /node_modules/,
                     use: {
-                        loader: 'babel-loader'
+                        loader: 'babel-loader',
+                        options: {
+                            presets: [
+                              [
+                                '@babel/preset-env',
+                                {
+                                  useBuiltIns: 'usage',
+                                  corejs: 3,
+                                  targets: isModern ? {
+                                    browsers: 'last 2 Chrome versions'
+                                  } : {
+                                    esmodules: false,
+                                    browsers: 'ie 10'
+                                  },
+                                },
+                              ],
+                            ],
+                            plugins: ['@babel/plugin-transform-runtime'],
+                        },
                     }
                 }
             ]
