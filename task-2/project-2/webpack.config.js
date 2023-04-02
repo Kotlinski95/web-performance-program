@@ -33,13 +33,17 @@ module.exports = (env, argv) => {
                               [
                                 '@babel/preset-env',
                                 {
+                                  modules: false,
                                   useBuiltIns: 'usage',
                                   corejs: 3,
                                   targets: isModern ? {
-                                    browsers: 'last 2 Chrome versions'
+                                    esmodules: true,
+                                    browsers: [
+                                        "last 2 versions",
+                                        "not dead"
+                                    ]
                                   } : {
-                                    esmodules: false,
-                                    browsers: 'ie 10'
+                                    browsers: 'ie >= 6'
                                   },
                                 },
                               ],

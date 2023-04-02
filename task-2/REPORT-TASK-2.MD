@@ -36,11 +36,25 @@ Structure of the task:
 | Project | Build      | File Size |
 |---------|------------|-----------|
 | Part 1  | Production | 105  B    |
-| Part 2  | Legacy     | 34.8 kB   |
+| Part 2  | Legacy     | 34.9 kB   |
 | Part 2  | Modern     | 18.6 kB   |
 
-As you can see, the modern build from Part 2 is smaller than the legacy build from Part 2. This is because the modern build only includes the necessary polyfills for modern browsers, while the other builds include polyfills for older browsers as well.
+As you can see, the modern build from Part 2 is smaller than the legacy build from Part 2.
+This is because the modern build only includes the necessary polyfills for modern browsers, while the other builds include polyfills for older browsers as well.
 
-The production build from Part 1 is smaller than the development build because it includes additional optimizations such as minification and dead code elimination.
+The production build from Part 1 is smaller than the other builds because it includes all modern requirements without handling ES modules.
 
-Overall, it's important to optimize your webpack builds for the specific needs of your project and target audience.
+Legacy and modern Webpack configurations differ in several ways, and each has its own advantages and disadvantages.
+
+Legacy Webpack configurations typically target older browsers and use older technologies. These configurations are designed to provide maximum backwards compatibility,
+but may result in larger and slower bundle sizes due to the lack of modern optimization techniques.
+
+On the other hand, modern Webpack configurations target newer browsers and use modern technologies such as ES modules and the Terser plugin for code optimization.
+These configurations can provide smaller and faster bundle sizes, but may not be compatible with older browsers that do not support modern JavaScript features.
+
+In terms of development experience, modern Webpack configurations are generally more user-friendly, with simpler and more concise configuration files and more
+intuitive defaults. They also tend to offer better performance during development, with faster build times and more efficient hot reloading.
+However, legacy Webpack configurations may be necessary in some cases, such as when supporting older browsers or integrating with legacy codebases.
+In these cases, it may be necessary to sacrifice some development experience in favor of backwards compatibility.
+
+In summary, both legacy and modern Webpack configurations have their own strengths and weaknesses, and the choice between them depends on the specific needs of the project.
