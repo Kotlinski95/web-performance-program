@@ -1,0 +1,21 @@
+{
+  "name": "image-optimization-hometask",
+  "version": "1.0.0",
+  "description": "task 3 - image optimization",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "http-server": "^14.1.1",
+    "sharp": "^0.32.0",
+    "webpack": "^5.77.0"
+  },
+  "dependencies": {
+    "buffer-loader": "^0.1.0",
+    "file-loader": "^6.2.0"
+  }
+}
