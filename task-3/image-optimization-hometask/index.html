@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Hometask</title>
+    <title>Hometask 3</title>
     <style>
       img {
         width: 100%;
@@ -10,20 +10,19 @@
         height: auto;
       }
     </style>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <!-- <script src="/script.js" defer></script> -->
+    <script src="/script.js" async></script>
   </head>
   <body>
     <picture>
-      <source srcset="dist/image1-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image1-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image1-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image1-1920.webp" />
+      <source data-srcset="dist/image1-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image1-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image1-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image1-1920.webp" />
       <img
-        src="dist/image1-1920.jpeg"
-        srcset="
-          dist/image1-320.jpeg 320w,
-          dist/image1-768.jpeg 768w,
+        data-src="dist/image1-1920.jpeg"
+        data-srcset="
+          dist/image1-320.jpeg   320w,
+          dist/image1-768.jpeg   768w,
           dist/image1-1024.jpeg 1024w,
           dist/image1-1920.jpeg 1920w
         "
@@ -31,18 +30,19 @@
         loading="lazy"
         width="1024"
         height="768"
+        class="lazyload"
       />
     </picture>
     <picture>
-      <source srcset="dist/image2-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image2-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image2-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image2-1920.webp" />
+      <source data-srcset="dist/image2-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image2-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image2-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image2-1920.webp" />
       <img
-        src="dist/image2-1920.jpeg"
-        srcset="
-          dist/image2-320.jpeg 320w,
-          dist/image2-768.jpeg 768w,
+        data-src="dist/image2-1920.jpeg"
+        data-srcset="
+          dist/image2-320.jpeg   320w,
+          dist/image2-768.jpeg   768w,
           dist/image2-1024.jpeg 1024w,
           dist/image2-1920.jpeg 1920w
         "
@@ -53,15 +53,15 @@
       />
     </picture>
     <picture>
-      <source srcset="dist/image3-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image3-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image3-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image3-1920.webp" />
+      <source data-srcset="dist/image3-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image3-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image3-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image3-1920.webp" />
       <img
-        src="dist/image3-1920.jpeg"
-        srcset="
-          dist/image3-320.jpeg 320w,
-          dist/image3-768.jpeg 768w,
+        data-src="dist/image3-1920.jpeg"
+        data-srcset="
+          dist/image3-320.jpeg   320w,
+          dist/image3-768.jpeg   768w,
           dist/image3-1024.jpeg 1024w,
           dist/image3-1920.jpeg 1920w
         "
@@ -72,15 +72,15 @@
       />
     </picture>
     <picture>
-      <source srcset="dist/image4-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image4-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image4-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image4-1920.webp" />
+      <source data-srcset="dist/image4-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image4-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image4-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image4-1920.webp" />
       <img
-        src="dist/image4-1920.jpeg"
-        srcset="
-          dist/image4-320.jpeg 320w,
-          dist/image4-768.jpeg 768w,
+        data-src="dist/image4-1920.jpeg"
+        data-srcset="
+          dist/image4-320.jpeg   320w,
+          dist/image4-768.jpeg   768w,
           dist/image4-1024.jpeg 1024w,
           dist/image4-1920.jpeg 1920w
         "
@@ -91,15 +91,15 @@
       />
     </picture>
     <picture>
-      <source srcset="dist/image5-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image5-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image5-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image5-1920.webp" />
+      <source data-srcset="dist/image5-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image5-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image5-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image5-1920.webp" />
       <img
-        src="dist/image5-1920.jpeg"
-        srcset="
-          dist/image5-320.jpeg 320w,
-          dist/image5-768.jpeg 768w,
+        data-src="dist/image5-1920.jpeg"
+        data-srcset="
+          dist/image5-320.jpeg   320w,
+          dist/image5-768.jpeg   768w,
           dist/image5-1024.jpeg 1024w,
           dist/image5-1920.jpeg 1920w
         "
@@ -110,15 +110,15 @@
       />
     </picture>
     <picture>
-      <source srcset="dist/image6-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image6-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image6-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image6-1920.webp" />
+      <source data-srcset="dist/image6-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image6-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image6-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image6-1920.webp" />
       <img
-        src="dist/image6-1920.jpeg"
-        srcset="
-          dist/image6-320.jpeg 320w,
-          dist/image6-768.jpeg 768w,
+        data-src="dist/image6-1920.jpeg"
+        data-srcset="
+          dist/image6-320.jpeg   320w,
+          dist/image6-768.jpeg   768w,
           dist/image6-1024.jpeg 1024w,
           dist/image6-1920.jpeg 1920w
         "
@@ -129,15 +129,15 @@
       />
     </picture>
     <picture>
-      <source srcset="dist/image7-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image7-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image7-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image7-1920.webp" />
+      <source data-srcset="dist/image7-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image7-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image7-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image7-1920.webp" />
       <img
-        src="dist/image7-1920.jpeg"
-        srcset="
-          dist/image7-320.jpeg 320w,
-          dist/image7-768.jpeg 768w,
+        data-src="dist/image7-1920.jpeg"
+        data-srcset="
+          dist/image7-320.jpeg   320w,
+          dist/image7-768.jpeg   768w,
           dist/image7-1024.jpeg 1024w,
           dist/image7-1920.jpeg 1920w
         "
@@ -148,15 +148,15 @@
       />
     </picture>
     <picture>
-      <source srcset="dist/image8-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image8-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image8-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image8-1920.webp" />
+      <source data-srcset="dist/image8-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image8-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image8-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image8-1920.webp" />
       <img
-        src="dist/image8-1920.jpeg"
-        srcset="
-          dist/image8-320.jpeg 320w,
-          dist/image8-768.jpeg 768w,
+        data-src="dist/image8-1920.jpeg"
+        data-srcset="
+          dist/image8-320.jpeg   320w,
+          dist/image8-768.jpeg   768w,
           dist/image8-1024.jpeg 1024w,
           dist/image8-1920.jpeg 1920w
         "
@@ -167,15 +167,15 @@
       />
     </picture>
     <picture>
-      <source srcset="dist/image9-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image9-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image9-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image9-1920.webp" />
+      <source data-srcset="dist/image9-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image9-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image9-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image9-1920.webp" />
       <img
-        src="dist/image9-1920.jpeg"
-        srcset="
-          dist/image9-320.jpeg 320w,
-          dist/image9-768.jpeg 768w,
+        data-src="dist/image9-1920.jpeg"
+        data-srcset="
+          dist/image9-320.jpeg   320w,
+          dist/image9-768.jpeg   768w,
           dist/image9-1024.jpeg 1024w,
           dist/image9-1920.jpeg 1920w
         "
@@ -186,15 +186,15 @@
       />
     </picture>
     <picture>
-      <source srcset="dist/image10-320.webp" media="(max-width: 320px)" />
-      <source srcset="dist/image10-768.webp" media="(max-width: 768px)" />
-      <source srcset="dist/image10-1024.webp" media="(max-width: 1024px)" />
-      <source srcset="dist/image10-1920.webp" />
+      <source data-srcset="dist/image10-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="dist/image10-768.webp" media="(max-width: 768px)" />
+      <source data-srcset="dist/image10-1024.webp" media="(max-width: 1024px)" />
+      <source data-srcset="dist/image10-1920.webp" />
       <img
-        src="dist/image10-1920.jpeg"
-        srcset="
-          dist/image10-320.jpeg 320w,
-          dist/image10-768.jpeg 768w,
+        data-src="dist/image10-1920.jpeg"
+        data-srcset="
+          dist/image10-320.jpeg   320w,
+          dist/image10-768.jpeg   768w,
           dist/image10-1024.jpeg 1024w,
           dist/image10-1920.jpeg 1920w
         "
@@ -204,5 +204,86 @@
         loading="lazy"
       />
     </picture>
+    <script>
+      // if ("loading" in HTMLImageElement.prototype && false) {
+      //   // Native lazy-loading is supported.
+      //   // Do nothing, the browser will handle it automatically.
+      //   console.log("Support native lazyloading");
+      //   const images = document.querySelectorAll(
+      //     "img[data-src], img[data-srcset], source[data-srcset]"
+      //   );
+      //   console.log("native lazyloading images: ", images);
+      //   images.forEach((image) => {
+      //     if (image.tagName === "IMG") {
+      //       image.src = image.dataset.src;
+      //       image.srcset = image.dataset.srcset;
+      //       delete image.dataset.srcset;
+      //       delete image.dataset.src;
+      //     } else if (image.tagName === "SOURCE") {
+      //       image.srcset = image.dataset.srcset;
+      //       delete image.dataset.srcset;
+      //     }
+      //   });
+      // } else {
+      //   // Native lazy-loading is not supported.
+      //   // Implement a polyfill or fallback.
+      //   console.log("Don't support native lazyloading");
+      //   if ("IntersectionObserver" in window) {
+      //     const images = document.querySelectorAll(
+      //       "img[data-src], img[data-srcset], source[data-srcset]"
+      //     );
+      //     console.log("Intersection observer images: ", images);
+      //     const config = {
+      //       rootMargin: "50px",
+      //       threshold: 0.01,
+      //     };
+
+      //     const observer = new IntersectionObserver((entries, self) => {
+      //       entries.forEach((entry) => {
+      //         if (entry.isIntersecting) {
+      //           const lazyImage = entry.target;
+      //           if (lazyImage.tagName === "IMG") {
+      //             lazyImage.src = lazyImage.dataset.src;
+      //             lazyImage.srcset = lazyImage.dataset.srcset;
+      //             delete lazyImage.dataset.srcset;
+      //             delete lazyImage.dataset.src;
+      //           } else if (lazyImage.tagName === "SOURCE") {
+      //             lazyImage.srcset = lazyImage.dataset.srcset;
+      //             delete lazyImage.dataset.srcset;
+      //           }
+      //           lazyImage.removeAttribute("data-src");
+      //           lazyImage.removeAttribute("data-srcset");
+      //           observer.unobserve(lazyImage);
+      //         }
+      //       });
+      //     }, config);
+
+      //     images.forEach((image) => {
+      //       observer.observe(image);
+      //     });
+      //   } else {
+      //     // Fallback for browsers that don't support IntersectionObserver
+      //     document.addEventListener("DOMContentLoaded", () => {
+      //       const lazyImages = document.querySelectorAll(
+      //         "img[data-src], img[data-srcset], source[data-srcset]"
+      //       );
+      //       console.log("DOMContentLoaded observer images: ", lazyImages);
+      //       lazyImages.forEach((lazyImage) => {
+      //         if (lazyImage.tagName === "IMG") {
+      //           lazyImage.src = lazyImage.dataset.src;
+      //           lazyImage.srcset = lazyImage.dataset.srcset;
+      //           delete lazyImage.dataset.srcset;
+      //           delete lazyImage.dataset.src;
+      //         } else if (lazyImage.tagName === "SOURCE") {
+      //           lazyImage.srcset = lazyImage.dataset.srcset;
+      //           delete lazyImage.dataset.srcset;
+      //         }
+      //         lazyImage.removeAttribute("data-src");
+      //         lazyImage.removeAttribute("data-srcset");
+      //       });
+      //     });
+      //   }
+      // }
+    </script>
   </body>
 </html>

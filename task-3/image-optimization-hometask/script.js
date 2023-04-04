@@ -1,81 +1,79 @@
-(() => {
-if ('IntersectionObserver' in window) {
-    console.log("IntersectionObserver! ")
-    if ("IntersectionObserver" in window) {
-        var lazyImageObserver = new IntersectionObserver(function (entries, observer) {
-            entries.forEach(function (entry) {
-                if (entry.isIntersecting) {
-                    let lazyImage = entry.target;
-                    console.log("IMAGE LAZYLOADED: ", lazyImage)
-                    if (lazyImage.tagName === 'IMG') {
-                        lazyImage.src = lazyImage.dataset.src;
-                        lazyImage.removeAttribute("data-src");
-                    } else {
-                        lazyImage.srcset = lazyImage.dataset.srcset;
-                        lazyImage.removeAttribute("data-srcset");
-                    }
-                    lazyImage.classList.remove("lazyload");
-                    lazyImage.classList.add("lazyloaded");
-                    lazyImageObserver.unobserve(lazyImage);
-                }
-            });
-        });
+if ("loading" in HTMLImageElement.prototype && false) {
+  // Native lazy-loading is supported.
+  // Do nothing, the browser will handle it automatically.
+  console.log("Support native lazyloading");
+  const images = document.querySelectorAll(
+    "img[data-src], img[data-srcset], source[data-srcset]"
+  );
+  console.log("native lazyloading images: ", images);
+  images.forEach((image) => {
+    if (image.tagName === "IMG") {
+      image.src = image.dataset.src;
+      image.srcset = image.dataset.srcset;
+      delete image.dataset.srcset;
+      delete image.dataset.src;
+    } else if (image.tagName === "SOURCE") {
+      image.srcset = image.dataset.srcset;
+      delete image.dataset.srcset;
     }
+  });
+} else {
+  // Native lazy-loading is not supported.
+  // Implement a polyfill or fallback.
+  console.log("Don't support native lazyloading");
+  if ("IntersectionObserver" in window) {
+    const images = document.querySelectorAll(
+      "img[data-src], img[data-srcset], source[data-srcset]"
+    );
+    console.log("Intersection observer images: ", images);
+    const config = {
+      rootMargin: "50px",
+      threshold: 0.01,
+    };
 
-    let lazyImages = document.querySelectorAll("img[data-src], source[data-srcset]");
-    console.log("IntersectionObserver lazyImages: ", lazyImages)
-    lazyImages.forEach(function(lazyImage) {
-        lazyImageObserver.observe(lazyImage);
-    });
-}
-
-scrollTrigger('img');
-
-function scrollTrigger(selector, options = {}) {
-    let els = document.querySelectorAll(selector);
-    els = Array.from(els);
-    els.forEach((el) => {
-      addObserver(el, options);
-    });
-  }
-  
-function addObserver(el, options) {
-    if (!("IntersectionObserver" in window)) {
-      if (options.cb) {
-        options.cb(el);
-      } else {
-        lazyloadElements(entry.target, "img");
-        entry.target.classList.add("animated");
-      }
-      return;
-    }
-    let observer = new IntersectionObserver((entries, observer) => {
+    const observer = new IntersectionObserver((entries, self) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          if (options.cb) {
-            options.cb(el);
-          } else {
-            lazyloadElements(entry.target, "img");
-            entry.target.classList.add("loaded");
+          const lazyImage = entry.target;
+          if (lazyImage.tagName === "IMG") {
+            lazyImage.src = lazyImage.dataset.src;
+            lazyImage.srcset = lazyImage.dataset.srcset;
+            delete lazyImage.dataset.srcset;
+            delete lazyImage.dataset.src;
+          } else if (lazyImage.tagName === "SOURCE") {
+            lazyImage.srcset = lazyImage.dataset.srcset;
+            delete lazyImage.dataset.srcset;
           }
-          observer.unobserve(entry.target);
+          lazyImage.removeAttribute("data-src");
+          lazyImage.removeAttribute("data-srcset");
+          observer.unobserve(lazyImage);
         }
       });
-    }, options);
-    observer.observe(el);
-}
-  
+    }, config);
 
-function lazyloadElements(el, tag) {
-    const elements = el.querySelectorAll(tag);
-    if (elements && elements.length > 0) {
-      Array.from(elements).forEach(function (element) {
-        if (element.classList.contains("lazyload")) {
-          const element_src = element.getAttribute("data-src");
-          element.setAttribute("src", element_src);
-          element.classList.replace("lazyload", "lazyloaded");
+    images.forEach((image) => {
+      observer.observe(image);
+    });
+  } else {
+    // Fallback for browsers that don't support IntersectionObserver
+    document.addEventListener("DOMContentLoaded", () => {
+      const lazyImages = document.querySelectorAll(
+        "img[data-src], img[data-srcset], source[data-srcset]"
+      );
+      console.log("DOMContentLoaded observer images: ", lazyImages);
+      lazyImages.forEach((lazyImage) => {
+        if (lazyImage.tagName === "IMG") {
+          lazyImage.src = lazyImage.dataset.src;
+          lazyImage.srcset = lazyImage.dataset.srcset;
+          delete lazyImage.dataset.srcset;
+          delete lazyImage.dataset.src;
+        } else if (lazyImage.tagName === "SOURCE") {
+          lazyImage.srcset = lazyImage.dataset.srcset;
+          delete lazyImage.dataset.srcset;
         }
+        lazyImage.removeAttribute("data-src");
+        lazyImage.removeAttribute("data-srcset");
       });
-    }
+    });
+  }
 }
-})();
