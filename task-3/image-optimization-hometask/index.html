@@ -1,289 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hometask 3</title>
     <style>
+      body {
+        opacity: 0;
+      }
       img {
         width: 100%;
         object-fit: cover;
         height: auto;
       }
     </style>
-    <script src="/script.js" async></script>
   </head>
   <body>
     <picture>
-      <source data-srcset="dist/image1-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image1-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image1-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image1-1920.webp" />
+      <source srcset="images/image1-320.webp" media="(max-width: 320px)" />
+      <source srcset="images/image1-768.webp" media="(max-width: 768px)" />
+      <source
+        srcset="images/image1-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source srcset="images/image1-1920.webp" />
       <img
-        data-src="dist/image1-1920.jpeg"
-        data-srcset="
-          dist/image1-320.jpeg   320w,
-          dist/image1-768.jpeg   768w,
-          dist/image1-1024.jpeg 1024w,
-          dist/image1-1920.jpeg 1920w
+        src="images/image1-1920.jpeg"
+        srcset="
+          images/image1-320.jpeg   320w,
+          images/image1-768.jpeg   768w,
+          images/image1-1024.jpeg 1024w,
+          images/image1-1920.jpeg 1920w
         "
         alt="Example image"
-        loading="lazy"
-        width="1024"
-        height="768"
+        loading="eager"
         class="lazyload"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
       />
     </picture>
     <picture>
-      <source data-srcset="dist/image2-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image2-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image2-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image2-1920.webp" />
+      <source data-srcset="images/image2-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="images/image2-768.webp" media="(max-width: 768px)" />
+      <source
+        data-srcset="images/image2-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source data-srcset="images/image2-1920.webp" />
       <img
-        data-src="dist/image2-1920.jpeg"
+        data-src="images/image2-1920.jpeg"
         data-srcset="
-          dist/image2-320.jpeg   320w,
-          dist/image2-768.jpeg   768w,
-          dist/image2-1024.jpeg 1024w,
-          dist/image2-1920.jpeg 1920w
+          images/image2-320.jpeg   320w,
+          images/image2-768.jpeg   768w,
+          images/image2-1024.jpeg 1024w,
+          images/image2-1920.jpeg 1920w
         "
-        width="1024"
-        height="768"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
         alt="Example image"
         loading="lazy"
       />
     </picture>
     <picture>
-      <source data-srcset="dist/image3-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image3-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image3-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image3-1920.webp" />
+      <source data-srcset="images/image3-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="images/image3-768.webp" media="(max-width: 768px)" />
+      <source
+        data-srcset="images/image3-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source data-srcset="images/image3-1920.webp" />
       <img
-        data-src="dist/image3-1920.jpeg"
+        data-src="images/image3-1920.jpeg"
         data-srcset="
-          dist/image3-320.jpeg   320w,
-          dist/image3-768.jpeg   768w,
-          dist/image3-1024.jpeg 1024w,
-          dist/image3-1920.jpeg 1920w
+          images/image3-320.jpeg   320w,
+          images/image3-768.jpeg   768w,
+          images/image3-1024.jpeg 1024w,
+          images/image3-1920.jpeg 1920w
         "
-        width="1024"
-        height="768"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
         alt="Example image"
         loading="lazy"
       />
     </picture>
     <picture>
-      <source data-srcset="dist/image4-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image4-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image4-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image4-1920.webp" />
+      <source data-srcset="images/image4-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="images/image4-768.webp" media="(max-width: 768px)" />
+      <source
+        data-srcset="images/image4-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source data-srcset="images/image4-1920.webp" />
       <img
-        data-src="dist/image4-1920.jpeg"
+        data-src="images/image4-1920.jpeg"
         data-srcset="
-          dist/image4-320.jpeg   320w,
-          dist/image4-768.jpeg   768w,
-          dist/image4-1024.jpeg 1024w,
-          dist/image4-1920.jpeg 1920w
+          images/image4-320.jpeg   320w,
+          images/image4-768.jpeg   768w,
+          images/image4-1024.jpeg 1024w,
+          images/image4-1920.jpeg 1920w
         "
-        width="1024"
-        height="768"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
         alt="Example image"
         loading="lazy"
       />
     </picture>
     <picture>
-      <source data-srcset="dist/image5-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image5-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image5-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image5-1920.webp" />
+      <source data-srcset="images/image5-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="images/image5-768.webp" media="(max-width: 768px)" />
+      <source
+        data-srcset="images/image5-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source data-srcset="images/image5-1920.webp" />
       <img
-        data-src="dist/image5-1920.jpeg"
+        data-src="images/image5-1920.jpeg"
         data-srcset="
-          dist/image5-320.jpeg   320w,
-          dist/image5-768.jpeg   768w,
-          dist/image5-1024.jpeg 1024w,
-          dist/image5-1920.jpeg 1920w
+          images/image5-320.jpeg   320w,
+          images/image5-768.jpeg   768w,
+          images/image5-1024.jpeg 1024w,
+          images/image5-1920.jpeg 1920w
         "
-        width="1024"
-        height="768"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
         alt="Example image"
         loading="lazy"
       />
     </picture>
     <picture>
-      <source data-srcset="dist/image6-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image6-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image6-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image6-1920.webp" />
+      <source data-srcset="images/image6-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="images/image6-768.webp" media="(max-width: 768px)" />
+      <source
+        data-srcset="images/image6-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source data-srcset="images/image6-1920.webp" />
       <img
-        data-src="dist/image6-1920.jpeg"
+        data-src="images/image6-1920.jpeg"
         data-srcset="
-          dist/image6-320.jpeg   320w,
-          dist/image6-768.jpeg   768w,
-          dist/image6-1024.jpeg 1024w,
-          dist/image6-1920.jpeg 1920w
+          images/image6-320.jpeg   320w,
+          images/image6-768.jpeg   768w,
+          images/image6-1024.jpeg 1024w,
+          images/image6-1920.jpeg 1920w
         "
-        width="1024"
-        height="768"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
         alt="Example image"
         loading="lazy"
       />
     </picture>
     <picture>
-      <source data-srcset="dist/image7-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image7-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image7-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image7-1920.webp" />
+      <source data-srcset="images/image7-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="images/image7-768.webp" media="(max-width: 768px)" />
+      <source
+        data-srcset="images/image7-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source data-srcset="images/image7-1920.webp" />
       <img
-        data-src="dist/image7-1920.jpeg"
+        data-src="images/image7-1920.jpeg"
         data-srcset="
-          dist/image7-320.jpeg   320w,
-          dist/image7-768.jpeg   768w,
-          dist/image7-1024.jpeg 1024w,
-          dist/image7-1920.jpeg 1920w
+          images/image7-320.jpeg   320w,
+          images/image7-768.jpeg   768w,
+          images/image7-1024.jpeg 1024w,
+          images/image7-1920.jpeg 1920w
         "
-        width="1024"
-        height="768"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
         alt="Example image"
         loading="lazy"
       />
     </picture>
     <picture>
-      <source data-srcset="dist/image8-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image8-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image8-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image8-1920.webp" />
+      <source data-srcset="images/image8-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="images/image8-768.webp" media="(max-width: 768px)" />
+      <source
+        data-srcset="images/image8-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source data-srcset="images/image8-1920.webp" />
       <img
-        data-src="dist/image8-1920.jpeg"
+        data-src="images/image8-1920.jpeg"
         data-srcset="
-          dist/image8-320.jpeg   320w,
-          dist/image8-768.jpeg   768w,
-          dist/image8-1024.jpeg 1024w,
-          dist/image8-1920.jpeg 1920w
+          images/image8-320.jpeg   320w,
+          images/image8-768.jpeg   768w,
+          images/image8-1024.jpeg 1024w,
+          images/image8-1920.jpeg 1920w
         "
-        width="1024"
-        height="768"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
         alt="Example image"
         loading="lazy"
       />
     </picture>
     <picture>
-      <source data-srcset="dist/image9-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image9-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image9-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image9-1920.webp" />
+      <source data-srcset="images/image9-320.webp" media="(max-width: 320px)" />
+      <source data-srcset="images/image9-768.webp" media="(max-width: 768px)" />
+      <source
+        data-srcset="images/image9-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source data-srcset="images/image9-1920.webp" />
       <img
-        data-src="dist/image9-1920.jpeg"
+        data-src="images/image9-1920.jpeg"
         data-srcset="
-          dist/image9-320.jpeg   320w,
-          dist/image9-768.jpeg   768w,
-          dist/image9-1024.jpeg 1024w,
-          dist/image9-1920.jpeg 1920w
+          images/image9-320.jpeg   320w,
+          images/image9-768.jpeg   768w,
+          images/image9-1024.jpeg 1024w,
+          images/image9-1920.jpeg 1920w
         "
-        width="1024"
-        height="768"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
         alt="Example image"
         loading="lazy"
       />
     </picture>
     <picture>
-      <source data-srcset="dist/image10-320.webp" media="(max-width: 320px)" />
-      <source data-srcset="dist/image10-768.webp" media="(max-width: 768px)" />
-      <source data-srcset="dist/image10-1024.webp" media="(max-width: 1024px)" />
-      <source data-srcset="dist/image10-1920.webp" />
+      <source
+        data-srcset="images/image10-320.webp"
+        media="(max-width: 320px)"
+      />
+      <source
+        data-srcset="images/image10-768.webp"
+        media="(max-width: 768px)"
+      />
+      <source
+        data-srcset="images/image10-1024.webp"
+        media="(max-width: 1024px)"
+      />
+      <source data-srcset="images/image10-1920.webp" />
       <img
-        data-src="dist/image10-1920.jpeg"
+        data-src="images/image10-1920.jpeg"
         data-srcset="
-          dist/image10-320.jpeg   320w,
-          dist/image10-768.jpeg   768w,
-          dist/image10-1024.jpeg 1024w,
-          dist/image10-1920.jpeg 1920w
+          images/image10-320.jpeg   320w,
+          images/image10-768.jpeg   768w,
+          images/image10-1024.jpeg 1024w,
+          images/image10-1920.jpeg 1920w
         "
-        width="1024"
-        height="768"
+        width="1024px"
+        height="768px"
+        sizes="(max-width: 320px) 320px,
+              (max-width: 768px) 768px,
+              (max-width: 1024px) 1024px,
+              1920px"
         alt="Example image"
         loading="lazy"
       />
     </picture>
-    <script>
-      // if ("loading" in HTMLImageElement.prototype && false) {
-      //   // Native lazy-loading is supported.
-      //   // Do nothing, the browser will handle it automatically.
-      //   console.log("Support native lazyloading");
-      //   const images = document.querySelectorAll(
-      //     "img[data-src], img[data-srcset], source[data-srcset]"
-      //   );
-      //   console.log("native lazyloading images: ", images);
-      //   images.forEach((image) => {
-      //     if (image.tagName === "IMG") {
-      //       image.src = image.dataset.src;
-      //       image.srcset = image.dataset.srcset;
-      //       delete image.dataset.srcset;
-      //       delete image.dataset.src;
-      //     } else if (image.tagName === "SOURCE") {
-      //       image.srcset = image.dataset.srcset;
-      //       delete image.dataset.srcset;
-      //     }
-      //   });
-      // } else {
-      //   // Native lazy-loading is not supported.
-      //   // Implement a polyfill or fallback.
-      //   console.log("Don't support native lazyloading");
-      //   if ("IntersectionObserver" in window) {
-      //     const images = document.querySelectorAll(
-      //       "img[data-src], img[data-srcset], source[data-srcset]"
-      //     );
-      //     console.log("Intersection observer images: ", images);
-      //     const config = {
-      //       rootMargin: "50px",
-      //       threshold: 0.01,
-      //     };
-
-      //     const observer = new IntersectionObserver((entries, self) => {
-      //       entries.forEach((entry) => {
-      //         if (entry.isIntersecting) {
-      //           const lazyImage = entry.target;
-      //           if (lazyImage.tagName === "IMG") {
-      //             lazyImage.src = lazyImage.dataset.src;
-      //             lazyImage.srcset = lazyImage.dataset.srcset;
-      //             delete lazyImage.dataset.srcset;
-      //             delete lazyImage.dataset.src;
-      //           } else if (lazyImage.tagName === "SOURCE") {
-      //             lazyImage.srcset = lazyImage.dataset.srcset;
-      //             delete lazyImage.dataset.srcset;
-      //           }
-      //           lazyImage.removeAttribute("data-src");
-      //           lazyImage.removeAttribute("data-srcset");
-      //           observer.unobserve(lazyImage);
-      //         }
-      //       });
-      //     }, config);
-
-      //     images.forEach((image) => {
-      //       observer.observe(image);
-      //     });
-      //   } else {
-      //     // Fallback for browsers that don't support IntersectionObserver
-      //     document.addEventListener("DOMContentLoaded", () => {
-      //       const lazyImages = document.querySelectorAll(
-      //         "img[data-src], img[data-srcset], source[data-srcset]"
-      //       );
-      //       console.log("DOMContentLoaded observer images: ", lazyImages);
-      //       lazyImages.forEach((lazyImage) => {
-      //         if (lazyImage.tagName === "IMG") {
-      //           lazyImage.src = lazyImage.dataset.src;
-      //           lazyImage.srcset = lazyImage.dataset.srcset;
-      //           delete lazyImage.dataset.srcset;
-      //           delete lazyImage.dataset.src;
-      //         } else if (lazyImage.tagName === "SOURCE") {
-      //           lazyImage.srcset = lazyImage.dataset.srcset;
-      //           delete lazyImage.dataset.srcset;
-      //         }
-      //         lazyImage.removeAttribute("data-src");
-      //         lazyImage.removeAttribute("data-srcset");
-      //       });
-      //     });
-      //   }
-      // }
-    </script>
   </body>
 </html>

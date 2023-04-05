@@ -1,11 +1,10 @@
-if ("loading" in HTMLImageElement.prototype && false) {
+if ("loading" in HTMLImageElement.prototype) {
   // Native lazy-loading is supported.
   // Do nothing, the browser will handle it automatically.
-  console.log("Support native lazyloading");
+  console.info("Support native lazyloading");
   const images = document.querySelectorAll(
     "img[data-src], img[data-srcset], source[data-srcset]"
   );
-  console.log("native lazyloading images: ", images);
   images.forEach((image) => {
     if (image.tagName === "IMG") {
       image.src = image.dataset.src;
@@ -20,12 +19,11 @@ if ("loading" in HTMLImageElement.prototype && false) {
 } else {
   // Native lazy-loading is not supported.
   // Implement a polyfill or fallback.
-  console.log("Don't support native lazyloading");
+  console.info("Don't support native lazyloading");
   if ("IntersectionObserver" in window) {
     const images = document.querySelectorAll(
       "img[data-src], img[data-srcset], source[data-srcset]"
     );
-    console.log("Intersection observer images: ", images);
     const config = {
       rootMargin: "50px",
       threshold: 0.01,
@@ -60,7 +58,6 @@ if ("loading" in HTMLImageElement.prototype && false) {
       const lazyImages = document.querySelectorAll(
         "img[data-src], img[data-srcset], source[data-srcset]"
       );
-      console.log("DOMContentLoaded observer images: ", lazyImages);
       lazyImages.forEach((lazyImage) => {
         if (lazyImage.tagName === "IMG") {
           lazyImage.src = lazyImage.dataset.src;
@@ -77,3 +74,4 @@ if ("loading" in HTMLImageElement.prototype && false) {
     });
   }
 }
+document.querySelector('body').style.opacity = 1;

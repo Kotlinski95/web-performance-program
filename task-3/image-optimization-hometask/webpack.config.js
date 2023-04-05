@@ -1,23 +1,31 @@
 const path = require('path');
-const SharpPlugin = require('sharp-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  mode: "production",
   entry: './src/index.js',
+  devtool: false,
+  context: __dirname,
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js'
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   plugins: [
-    new SharpPlugin({
-      files: [
-        { from: './src/images/image1.jpg', to: 'images/[name].webp' },
-        { from: './src/images/image2.jpg', to: 'images/[name].webp' },
-        { from: './src/images/image3.jpg', to: 'images/[name].webp' }
-      ],
-      resize: {
-        width: [320, 768, 1024, 1920]
+    new HtmlWebpackPlugin({
+      template: 'index.html',
+    }),
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.js?$/,
+        loader: 'babel-loader',
+        include: /src/,
+        exclude: /node_modules/,
       },
-      format: 'webp'
-    })
-  ]
+    ],
+  },
 };
