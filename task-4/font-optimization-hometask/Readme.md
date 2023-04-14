@@ -21,3 +21,8 @@ Both fonts loaded
 
 Displayed fonts with the FOUT strategy:
 
+https://user-images.githubusercontent.com/44818359/232053579-94775f90-d4c8-4416-8c46-e840ded84320.mov
+
+Lighthouse:
+
+![lighthouse-fonts](https://user-images.githubusercontent.com/44818359/232053744-1ff37c72-8b54-4039-b4ee-10a188ccfa55.png)
