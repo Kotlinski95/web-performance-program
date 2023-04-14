@@ -15,3 +15,23 @@ via srcset and media **[3 points]**
 3. Implement a lazy loading image approach (browser-level) **[1 point]**
 4. Implement a lazy loading image polyfill for older browsers and use this approach only in 
 browsers that do not support standard **[3 point]**
+
+## How to run project
+
+Ensure that Node.js is installed on your system (version 14.x is required).
+Open the project directory in a terminal.
+Run the following command to install the project dependencies:
+
+**[npm install]**
+
+Run the following command to build the project and start the server:
+
+**[npm run start]**
+
+Open a web browser and navigate to http://127.0.0.1:8080 to access the project.
+Note: If you only want to build the project or start the server separately, you can use the following commands:
+
+**[npm run build]**
+
+**[npm run serve]**
+
