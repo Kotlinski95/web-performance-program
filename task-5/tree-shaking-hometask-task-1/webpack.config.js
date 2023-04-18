@@ -22,9 +22,14 @@ module.exports = {
       }
     ]
   },
-  mode: 'development',
+  mode: 'production', // set mode to production
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     port: 9000
+  },
+  optimization: {
+    // add optimization section to include all exports
+    usedExports: false,
+    providedExports: false,
   }
 };

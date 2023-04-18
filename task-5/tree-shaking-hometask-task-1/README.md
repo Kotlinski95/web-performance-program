@@ -19,24 +19,23 @@ In this task you need to work with `webpack.config.js` file.
 1. Set mode to production.
 2. Change webpack.config.js, so function sayHello and function sayBye would appear in final build.
 
-## Task 2 [3 point]
+## Result
 
-### Task description
+```javascript
+  mode: 'production', // set mode to production
+```
 
-In this task you need to work with `task2.js` file.
+```javascript
+  optimization: {
+    // add optimization section to include all exports
+    usedExports: false,
+    providedExports: false,
+  }
+```
 
-1. Set mode to production.
-2. Remove optimization object.
-3. Change task2.js file so no message will apear in a console.
+Now after `npm run build` inside `dist/main.bundle.js`
+there is also sayBye function appear:
 
-## Task 3 [4 point]
-
-### Task description
-
-In this task you need to work with `package.json` file.
-
-1. Set mode to production.
-2. Remove optimization object.
-3. Don't change js files or webpack configuration file.
-4. There should be no 'console.log' statement in final bundle file.
-
+```javascript
+(()=>{"use strict";var e={334:(e,o,r)=>{function t(){console.log("Hello")}function l(){console.log("Bye")}r.r(o),r.d(o,{sayBye:()=>l,sayHello:()=>t})}},o={};function r(t){var l=o[t];if(void 0!==l)return l.exports;var n=o[t]={exports:{}};return e[t](n,n.exports,r),n.exports}r.d=(e,o)=>{for(var t in o)r.o(o,t)&&!r.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:o[t]})},r.o=(e,o)=>Object.prototype.hasOwnProperty.call(e,o),r.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};r.r({}),(0,r(334).sayHello)()})();
+```
