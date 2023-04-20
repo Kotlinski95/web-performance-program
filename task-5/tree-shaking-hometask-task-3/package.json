@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "serve": "webpack-dev-server"
+    "build": "webpack && npm run remove-logs",
+    "serve": "webpack-dev-server",
+    "remove-logs": "find ./dist -name '*.js' -type f -exec sed -E -i '' -e 's/console\\.log\\(([^()]|\\\\\\([^()]*\\\\\\))*\\);//g' {} \\;"
   },
   "author": "",
   "license": "ISC",
