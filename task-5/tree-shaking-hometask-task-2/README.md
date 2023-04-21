@@ -35,13 +35,15 @@ But we have to switch file from task1.js to task2.js in entry of `webpack.config
   entry: './src/task2.js',
 ```
 
-Ad. 3. In order to remove appearing message from a console, I've commented out both function calls.
+Ad. 3. In order to remove appearing message from a console, we can overwrite these methods based on the environment - leave only for development mode.
 
 ```javascript
-import { sayHello, sayBye } from './fn1';
-
-// sayHello();
-// sayBye();
+if (process.env.NODE_ENV !== "development") {
+    console.log = () => {};
+    console.debug = () => {};
+    console.info = () => {};
+    console.warn = () => {};
+}
 ```
 
 
